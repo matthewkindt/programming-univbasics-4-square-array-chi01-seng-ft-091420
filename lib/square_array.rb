@@ -4,4 +4,9 @@ def square_array(array)
   while array[count] do
     puts array[count]
     count += 1
+  end
+  
+def square_array(array)
+  array.map! {|num| num ** 2}
+end
 end
